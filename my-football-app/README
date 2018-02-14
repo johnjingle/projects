@@ -1,0 +1,12 @@
+The project can be imported into Eclipse as a maven project.
+
+The file "football-results.txt" to be processed should be of the agreed format and reside in the project home directory 
+if running in Eclipse.
+
+If the application is run from the command line in the target directory using 
+java -jar my-football-app-1.0-SNAPSHOT.jar
+then the file should be present there.
+
+In the project directory run
+mvn test 
+to run the unit tests.
